@@ -5,7 +5,16 @@
 }
 
 body {
-    background-color: #d3d9d4;
+    background-color: #7e685a;
+}
+
+.body-content {
+    display: flex;
+}
+
+.body-content main, .body-content aside {
+    padding: 10px;
+    margin: 5px;
 }
 
 .header {
@@ -42,5 +51,66 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #d3d9d4;
+    color: #d3d9d4,;
+}
+
+.nav-link:hover {
+    color: aquamarine;
+    background-color: red;
+}
+
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 225px;
+    margin-top: 20px;
+}
+
+.about-container {
+    width: 300px;
+}
+
+.project-container {
+    width: 450px;
+}
+
+.content-image {
+    width: 100%;
+}
+
+.content-item {
+    margin: 15px 0 15px;
+    background-color: #124e66;
+    display: flex;
+    padding: 15px;
+}
+
+.card {
+    margin: 15px 0 15px;
+    background-color: #124e66;
+    padding: 15px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #124e66;
+}
+
+.footer-row {
+    margin-top: 10px;
+}
+
+.footer-row li {
+    margin-top: 10px;
+}
+
+.footer-row a {
+    text-decoration: none;
+}
+
+.footer-row ul  {
+    list-style-type: none;
 }
