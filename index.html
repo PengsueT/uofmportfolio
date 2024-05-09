@@ -6,31 +6,34 @@
     <title>UofM Portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="header">
+        <h1>Charles<span class="Pengsue">Pengsue</span>Thao</h1>
         <nav>
             <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="#About">About</a></li>
-                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Project">Project</a></li>
                 <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
             </ul>
         </nav>
         <div>
             <img src="images/profile.png" alt="Profile Picture">
         </div>
     </header>
-    <main>
+    <main class="main">
         <section>
-            <img src="placeholder" alt="Khao Poon Dish">
+            <img id="About" src="placeholder" alt="Khao Poon Dish">
             <h2>About me</h2>
             <p>My name is Pengsue Charles Thao. A fun fact about me is I love to cook. One dish i love to cook is called Khao Poon. This dish is my all time favorite. It reminds me of home and my childhood.</p>
         </section>
         <section>
-            <img src="placeholder" alt="Work">
-            <h2>Resume</h2>
+            <img id="Project" src="placeholder" alt="Project">
+            <h2>Project</h2>
             <p>This is a project that I am currently working on for fun. I try my best to learn new things by applying them to my github repository.</p>
         </section>
         <section>
-            <img src="placeholder" alt="Contact img">
+            <img id="Contact" src="placeholder" alt="Contact img">
             <h2>Contact Me</h2>
             <p>You can contact me from any of these</p>
             <form id="contact-form" action="submit">
@@ -51,17 +54,47 @@
             </form>
         </section>
     </main>
-    <aside>
+    <aside id="Hobbies" class="aside">
         <h2>Hobbies</h2>
         <section class="card">
             <h3>Fishing</h3>
+            <img src="placeholder" alt="Picture of Fish">
         </section>
         <section class="card">
             <h3>Volleyball</h3>
+            <img src="placeholder" alt="Picture of Volleyball">
         </section>
         <section class="card">
             <h3>Adaptive Hiking</h3>
+            <img src="placeholder" alt="Picture of Adaptive Hiking">
         </section>
     </aside>
+    <hr>
+    <footer class="footer">
+        <section class="footer-container">
+            <div class="row">
+                <h4>Nav</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Project" target="_blank">Project</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#Hobbies">Hobbies</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <h4>Socials</h4>
+                <ul>
+                    <li><a href="http://instagram.com/">Instagram</a></li>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://www.facebook.com/">Facebook</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <h4>Links</h4>
+                <a href="https://github.com/PengsueT">Github</a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
