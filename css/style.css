@@ -21,6 +21,8 @@ body {
     padding: 20px;
     font-family: sans-serif;
     background-color: #124e66;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header h1 {
@@ -75,8 +77,10 @@ body {
     margin-top: 15px;
 }
 
-.image-container{
-    width: 300px;
+.image-container {
+    max-width: 250px;
+    flex: 1 0 50%;
+    width: 100%;
 }
 
 .content-image {
@@ -137,5 +141,7 @@ body {
     .body-content {
         flex-direction: column;
     }
+
+
 
 }
