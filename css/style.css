@@ -66,10 +66,13 @@ body {
     margin-left: 20px;
 }
 
-.description-content p {
-    margin-top: 15px;
+.description-content {
     font-family: sans-serif;
     color: #ffffff;
+}
+
+.description-content p {
+    margin-top: 15px;
 }
 
 .image-container{
@@ -92,6 +95,12 @@ body {
     margin: 15px 0 15px;
     background-color: #124e66;
     padding: 15px;
+}
+
+.card h3 {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px;
 }
 
 .footer-container {
