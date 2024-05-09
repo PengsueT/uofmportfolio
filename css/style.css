@@ -51,14 +51,8 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: #d3d9d4,;
+    color: #d3d9d4;
 }
-
-.nav-link:hover {
-    color: aquamarine;
-    background-color: red;
-}
-
 
 .profile-pic {
     display: block;
@@ -68,16 +62,17 @@ body {
     margin-top: 20px;
 }
 
-.about-container {
-    width: 300px;
+
+.description-content {
+    margin-left: 20px;
 }
 
-.project-container {
-    width: 450px;
+.description-content p {
+    margin-top: 15px;
 }
 
 .content-image {
-    width: 100%;
+    width: 300px;
 }
 
 .content-item {
@@ -85,6 +80,7 @@ body {
     background-color: #124e66;
     display: flex;
     padding: 15px;
+    
 }
 
 .card {
@@ -109,6 +105,8 @@ body {
 
 .footer-row a {
     text-decoration: none;
+    color: #d3d9d4;
+    font-family: sans-serif;
 }
 
 .footer-row ul  {
