@@ -13,14 +13,14 @@ The motivation behind this assignment project is to learn about how much css and
 
 ## Credits
 
-![KhaoPoonRecipe](https://chawjcreations.com/khaub-poob-red-curry-chicken-noodle-soup/)
+[KhaoPoonRecipe](https://chawjcreations.com/khaub-poob-red-curry-chicken-noodle-soup/)
 
-![w3schools](https://www.w3schools.com/)
+[w3schools](https://www.w3schools.com/)
 
-![MdnWebDocs](https://developer.mozilla.org/en-US/)
+[MdnWebDocs](https://developer.mozilla.org/en-US/)
 
 ## Links
 
-![GithubRepo](https://github.com/PengsueT/uofmportfolio)
+[GithubRepo](https://github.com/PengsueT/uofmportfolio)
 
-![GithubLivePort]()
+[GithubLivePort]()
