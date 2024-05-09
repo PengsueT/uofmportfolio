@@ -4,36 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UofM Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <h1>Charles<span class="Pengsue">Pengsue</span>Thao</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Project">Project</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a class="nav-link" href="#About">About</a></li>
+                <li><a class="nav-link" href="#Project">Project</a></li>
+                <li><a class="nav-link" href="#Contact">Contact</a></li>
+                <li><a class="nav-link" href="#Hobbies">Hobbies</a></li>
             </ul>
         </nav>
-        <div>
-            <img src="images/profile.png" alt="Profile Picture">
-        </div>
     </header>
+    <div>
+        <img src="images/profile.png" alt="Profile Picture">
+    </div>
     <main class="main">
-        <section>
-            <img id="About" src="placeholder" alt="Khao Poon Dish">
+        <section id="About" class="content-item">
+            <img src="placeholder" alt="Khao Poon Dish">
             <h2>About me</h2>
             <p>My name is Pengsue Charles Thao. A fun fact about me is I love to cook. One dish i love to cook is called Khao Poon. This dish is my all time favorite. It reminds me of home and my childhood.</p>
         </section>
-        <section>
-            <img id="Project" src="placeholder" alt="Project">
+        <section id="Project" class="content-item">
+            <img src="placeholder" alt="Project">
             <h2>Project</h2>
             <p>This is a project that I am currently working on for fun. I try my best to learn new things by applying them to my github repository.</p>
         </section>
-        <section>
-            <img id="Contact" src="placeholder" alt="Contact img">
+        <section id="Contact" class="content-item">
+            <img src="placeholder" alt="Contact img">
             <h2>Contact Me</h2>
             <p>You can contact me from any of these</p>
             <form id="contact-form" action="submit">
@@ -72,7 +72,7 @@
     <hr>
     <footer class="footer">
         <section class="footer-container">
-            <div class="row">
+            <div class="footer-row">
                 <h4>Nav</h4>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -82,7 +82,7 @@
                     <li><a href="#Hobbies">Hobbies</a></li>
                 </ul>
             </div>
-            <div class="row">
+            <div class="footer-row">
                 <h4>Socials</h4>
                 <ul>
                     <li><a href="http://instagram.com/">Instagram</a></li>
@@ -90,7 +90,7 @@
                     <li><a href="https://www.facebook.com/">Facebook</a></li>
                 </ul>
             </div>
-            <div class="row">
+            <div class="footer-row">
                 <h4>Links</h4>
                 <a href="https://github.com/PengsueT">Github</a>
             </div>
