@@ -23,4 +23,4 @@ The motivation behind this assignment project is to learn about how much css and
 
 [GithubRepo](https://github.com/PengsueT/uofmportfolio)
 
-[GithubLivePort]()
+[GithubLivePort](https://pengsuet.github.io/uofmportfolio/)
